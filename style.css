@@ -451,8 +451,23 @@ img {
   right: 300px;
   border: #f5f4f6;
 }
+.buttons_pt3 {
+  position: absolute;
+  top: 6.5rem;
+  display: flex;
+  gap: 30px;
+  right: 400px;
+  border: #f5f4f6;
+}
 
 .buttons_p3 button {
+  border: transparent;
+  background-color: transparent;
+  font-weight: 400;
+  font-family: "SamsungOne", arial, sans-serif;
+  font-size: 18px;
+}
+.buttons_pt3 button {
   border: transparent;
   background-color: transparent;
   font-weight: 400;
