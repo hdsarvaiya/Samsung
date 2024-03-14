@@ -17,6 +17,15 @@ const btn2 = document.getElementById('btn2');
 const btn3 = document.getElementById('btn3');
 const btn4 = document.getElementById('btn4');
 const btn5 = document.getElementById('btn5');
+const img123 = document.getElementById('img123');
+const textt1 = document.getElementById('text1');
+const ht3 = document.getElementById('ht3');
+
+const btnt1 = document.getElementById('btnt1');
+const btnt2 = document.getElementById('btnt2');
+const btnt3 = document.getElementById('btnt3');
+const btnt4 = document.getElementById('btnt4');
+const btnt5 = document.getElementById('btnt5');
 const img1 = document.getElementById('img12');
 const text1 = document.getElementById('text1');
 const h3 = document.getElementById('h3');
@@ -162,5 +171,35 @@ btn4.onclick = () => {
 btn5.onclick = () => {
   img1.style.marginLeft = "-80%";
   h3.innerHTML = "Galaxy Watch6"
+}
+
+
+//Tv Module
+
+btnt1.onclick = () => {
+
+  img123.style.marginLeft = "0";
+  ht3.innerHTML = "QLED (QE1C)";
+
+}
+
+btnt2.onclick = () => {
+  img123.style.marginLeft = "-20%";
+  ht3.innerHTML = "Neo QLED"
+
+    
+}
+
+btnt3.onclick = () => {
+  img123.style.marginLeft = "-40%";
+  ht3.innerHTML = "Samsung OLED"
+}
+btnt4.onclick = () => {
+  img123.style.marginLeft = "-60%";
+  ht3.innerHTML = "The Frame"
+}
+btnt5.onclick = () => {
+  img123.style.marginLeft = "-80%";
+  ht3.innerHTML = "Crystal 4K UHD"
 }
 
