@@ -4,9 +4,12 @@
 }
 @font-face {
   font-family: "SamsungOne700";
-  src: url(C:\Users\Harsh\Desktop\harsh\SamsungOne-700.ttf);
+  src: url(C:\Users\Harsh\Desktop\harsh\samsungone-cufonfonts\SamsungOne-700.ttf);
 }
 
+*{
+  font-family: 'SamsungOne',arial,sans-serif;
+}
 .nav {
   background-color: #ffffff;
   display: flex;
@@ -16,9 +19,12 @@
   margin-top: 10px;
 }
 
-nav h2 {
+nav svg {
   font-size: px;
   color: black;
+  display: block;
+  height: 32px;
+  width: 120;
   font-family: "SamsungOne700";
 }
 
@@ -47,28 +53,43 @@ nav h2 {
   box-sizing: border-box;
 }
 
-.Galaxy {
-  font-size: 55px;
-  font-family: "SamsungOne700", sans-serif;
+.page1 .h3 {
+  font-family: 'SamsungSharpSans', arial, sans-serif;
+
   position: absolute;
-  right: 70%;
-  top: 38%;
+  right: 85%;
+  top: 45%;
+  font-size: 20px;
 }
 
-.p1 {
-  font-size: 18px;
-  font-weight: 100;
-  line-height: 1.9em;
+.Galaxy {
+  font-size: 55px;
+  font-family: 'SamsungSharpSans', arial, sans-serif;
+
   position: absolute;
-  right: 90%;
+  right: 65%;
+  top: 49%;
 }
-.p2 {
+
+.page1 .p1 {
   font-size: 18px;
   font-weight: 100;
   line-height: 1.9em;
   position: absolute;
-  right: 68.7%;
-  top: 56%;
+  right: 82%;
+  font-family: 'SamsungSharpSans', arial, sans-serif;
+
+  top: 67%;
+}
+.page1 .p2 {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.9em;
+  position: absolute;
+  font-family: 'SamsungSharpSans', arial, sans-serif;
+
+  right: 82.2%;
+  top: 71%;
 }
 
 .lm {
@@ -187,21 +208,6 @@ ul {
   display: flex;
 }
 
-@media only screen and (max-width: 600px) {
-
-  .nav{
-    padding: 0 50px;
-  }
-  
-}
-@media only screen and (max-width: 00px) {
-
-  .nav{
-    display: none;
-  }
-  
-}
-
 
 
 
@@ -221,12 +227,28 @@ ul {
   margin: auto;
 }
 
-.video1 {
-  width: 90%;
-  height: vh;
-  object-fit: cover;
-  margin: auto;
+.page1 .video {
+
+display: block;
+width: 1380px;
 }
+
+.v_at_500{
+  display: none;
+  height: 641px;
+  width: 400px;
+}
+
+.page1 .container {
+  width: 100%;
+  position: absolute;
+  top: 15%;
+  /* overflow: hidden; */
+  color: crimson;
+  object-fit: contain;
+}
+
+
 img {
   width: 100%;
   height: 100%;
@@ -266,6 +288,7 @@ img {
 
 .page2 h2 {
   text-align: center;
+  font-size: 24px;
 }
 
 #page3 {
@@ -628,6 +651,105 @@ justify-content: center;
   border: #f5f4f6;
   padding: 30px;
   border-radius: 25px;
+}
+
+
+/* Style of descption of image in page 2 */
+
+.new .desc {
+  font-family: "SamsungOne", arial, sans-serif;
+  position: absolute;
+  top: 75%;
+  right: 68%;
+
+}
+.new .desc1 {
+  font-family: "SamsungOne", arial, sans-serif;
+  position: absolute;
+  top: 80%;
+  right: 64%;
+}
+
+.new .box .second .desc{
+  font-family: "SamsungOne", arial, sans-serif;
+position: absolute;
+top: 38%;
+right: 36%;
+}
+.new .box .second .desc1{
+  font-family: "SamsungOne", arial, sans-serif;
+position: absolute;
+top: 42%;
+right: 33.5%;
+}
+.new .box .second .s2 .desc1{
+  font-family: "SamsungOne", arial, sans-serif;
+position: absolute;
+top: 83%;
+right: 32.5%;
+}
+.new .box .second .s2 .desc1 p{
+  font-family: "SamsungOne", arial, sans-serif;
+position: absolute;
+top: 60%;
+right: -10%;
+font-size: 12px;
+}
+
+.new .box .third .desc1{
+  font-family: "SamsungOne", arial, sans-serif;
+  position: absolute;
+  top: 33%;
+  right: 5%;
+}
+
+.new .box .third .desc1 p{
+  font-family: "SamsungOne", arial, sans-serif;
+position: absolute;
+top: 60%;
+right: 12%;
+font-size: 13px;
+}
+
+
+.new .box .third .t2 .desc1{
+  font-family: "SamsungOne", arial, sans-serif;
+  position: absolute;
+  top: 81%;
+  right: 8.8%;
+}
+
+.new .box .third .t2 .desc1 p{
+  font-family: "SamsungOne", arial, sans-serif;
+position: absolute;
+top: 70%;
+right: -23%;
+font-size: 13px;
+}
+
+.new .box .main p{
+  font-family: "SamsungOne", arial, sans-serif;
+position: absolute;
+top: 87%;
+right:67%;
+font-size: 18px;
+}
+
+.mobile .box1 .desc1 h3{
+  font-family: "SamsungOne", arial, sans-serif;
+  position: absolute;
+  font-size: 18px;
+  top: 35%;
+  right: 34.5%;
+
+}
+.mobile .box1 .desc1 p{
+  font-family: "SamsungOne", arial, sans-serif;
+  position: absolute;
+  font-size: 11px;
+  top: 42%;
+  right: 35.5%;
+
 }
 
 
