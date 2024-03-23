@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: "SamsungOne700";
-  src: url(C:\Users\Harsh\Desktop\harsh\samsungone-cufonfonts\SamsungOne-700.ttf);
+  src: url(C:\Users\Harsh\Desktop\harsh\SamsungOne-700.ttf);
 }
 
 *{
@@ -19,12 +19,9 @@
   margin-top: 10px;
 }
 
-nav svg {
+nav h2 {
   font-size: px;
   color: black;
-  display: block;
-  height: 32px;
-  width: 120;
   font-family: "SamsungOne700";
 }
 
@@ -53,43 +50,28 @@ nav svg {
   box-sizing: border-box;
 }
 
-.page1 .h3 {
-  font-family: 'SamsungSharpSans', arial, sans-serif;
-
-  position: absolute;
-  right: 85%;
-  top: 45%;
-  font-size: 20px;
-}
-
 .Galaxy {
   font-size: 55px;
-  font-family: 'SamsungSharpSans', arial, sans-serif;
-
+  font-family: "SamsungOne700", sans-serif;
   position: absolute;
-  right: 65%;
-  top: 49%;
+  right: 70%;
+  top: 38%;
 }
 
-.page1 .p1 {
+.p1 {
   font-size: 18px;
   font-weight: 100;
   line-height: 1.9em;
   position: absolute;
-  right: 82%;
-  font-family: 'SamsungSharpSans', arial, sans-serif;
-
-  top: 67%;
+  right: 90%;
 }
-.page1 .p2 {
+.p2 {
   font-size: 18px;
   font-weight: 100;
   line-height: 1.9em;
   position: absolute;
-  font-family: 'SamsungSharpSans', arial, sans-serif;
-
-  right: 82.2%;
-  top: 71%;
+  right: 68.7%;
+  top: 56%;
 }
 
 .lm {
@@ -228,24 +210,9 @@ ul {
 }
 
 .page1 .video {
+border: black solid 2px;
+width: 1500px;
 
-display: block;
-width: 1380px;
-}
-
-.v_at_500{
-  display: none;
-  height: 641px;
-  width: 400px;
-}
-
-.page1 .container {
-  width: 100%;
-  position: absolute;
-  top: 15%;
-  /* overflow: hidden; */
-  color: crimson;
-  object-fit: contain;
 }
 
 
@@ -288,7 +255,6 @@ img {
 
 .page2 h2 {
   text-align: center;
-  font-size: 24px;
 }
 
 #page3 {
