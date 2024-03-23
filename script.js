@@ -1,4 +1,3 @@
-
 const New = document.getElementById("new");
 const Box = document.getElementById("box");
 const Mobile = document.getElementById("mobile1");
@@ -273,5 +272,4 @@ btnh5.onclick = () => {
   img1234.style.marginLeft = "-80%";
   hh3.innerHTML = "322L BESPOKE Double Door"
 }
-
 
